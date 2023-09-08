@@ -25,4 +25,7 @@ void print_triangle(int leftCol, int size)
     putchar('\n');
   }
 }
-
+void print_arrow(int leftCol, int size) {
+  print_triangle(5,5);
+  print_square(8,5);
+}
